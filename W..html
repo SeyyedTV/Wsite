@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!-- saved from url=(0085)http://127.0.0.1:5500/-%2D12-%2Dresponsive%20website/project4%20-%20responsive/w.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>W.</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" href="./W._files/w.css">
+  <style type="text/css" id="operaUserStyle"></style></head>
+  <body>
+    <div class="main-container">
+      <nav class="top-container">
+        <img class="site-icon" src="./W._files/logo.svg" name="sitelogo">
+        <div class="top-options">
+          <p id="topoption">Home</p>
+          <p id="topoption">New</p>
+          <p id="topoption">Popular</p>
+          <p id="topoption">Trending</p>
+          <p id="topoption">Categories</p>
+        </div>
+        <div class="mobile-menu">
+          <img class="menu-icon" src="./W._files/icon-menu.svg" name="menulogo">
+          <div class="menu-box">
+            <img class="closemenu-icon" src="./W._files/icon-menu-close.svg">
+            <div class="mobile-options-container">
+              <p id="optionmobile">Home</p>
+              <p id="optionmobile">New</p>
+              <p id="optionmobile">Popular</p>
+              <p id="optionmobile">Trending</p>
+              <p id="optionmobile">Categories</p>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main class="main-content">
+        <div class="left-main">
+          <img class="main-image-dsk" src="./W._files/image-web-3-desktop.jpg">
+          <img class="main-image" src="./W._files/image-web-3-mobile.jpg">
+          <div class="main-main-main">
+            <div class="main-left-left">
+              <p class="main-image-info">The Bright Future of Web 3.0?</p>
+            </div>
+            <div class="main-left-right">
+              <p class="main-image-info-more">we dive into the next evelution we need to mango of the web development that claims to put the power of the platform back to the hand of the people. put is it promising ?</p>
+              <button class="left-main-button">READ MORE</button>
+            </div>
+          </div>
+          </div>
+        <div class="right-main">
+          <div class="right-main-container">
+            <p class="news">NEW</p>
+            <p class="news-title">Hydrogen VS Electric Cars</p>
+            <p class="news-info">will hydrogen-fueled cars ever catch up to EVs ?</p>
+          </div>
+          <hr class="line">
+          <div class="right-main-container">
+            <p class="news-title">The Downside of AI Artistry</p>
+            <p class="news-info">what are the possible adverse effects of on-demand AI image generation?</p>
+          </div>
+          <hr class="line">
+          <div class="right-main-container">
+            <p class="news-title">Is VC Funding Drying Up?</p>
+            <p class="news-info">Private Funding by VC firms is down 50% YOY. we take a look at what that means.</p>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="footer-main-container">
+          <div class="footer-containers">
+            <img class="footer-image" src="./W._files/image-retro-pcs.jpg" name="retro">
+            <div class="footer-texts">
+              <p class="footer-num">01</p>
+              <p class="footer-title">Revive Retro PCs</p>
+              <p class="footer-text1">What happens when old PCs are given modern upgrades?</p>
+            </div>
+          </div>
+          <div class="footer-containers">
+            <img class="footer-image" src="./W._files/image-top-laptops.jpg" name="retro">
+            <div class="footer-texts">
+              <p class="footer-num">02</p>
+              <p class="footer-title">Top 10 Laptops of 2023</p>
+              <p class="footer-text1">our best picks for various need and budget.</p>
+            </div>
+          </div>
+          <div class="footer-containers">
+            <img class="footer-image" src="./W._files/image-gaming-growth.jpg" name="retro">
+            <div class="footer-texts">
+              <p class="footer-num">03</p>
+              <p class="footer-title">The Growth of Gaming</p>
+              <p class="footer-text1">How the pandemic has Sparked fresh oppertunities.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
